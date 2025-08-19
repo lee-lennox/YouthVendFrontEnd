@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouthVend - Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+     <div class="nav-logo" style="display:flex; align-items:center; gap:5px;">
+  <i class="fas fa-hand-holding"></i> YouthVend
+</div>
+      <div class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="categories.html" class="nav-link">Categories</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+
+  
+      <div class="nav-actions">
+                <button class="btn-search" id="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button class="btn-cart" id="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+             <a href="login.html" class="btn-login">Login</a>
+             <a href="register.html" class="btn-register">Register</a>
+            </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content container">
+      <div class="hero-text">
+        <h1>Empowering Young Entrepreneurs</h1>
+        <p>Discover unique products from talented youth entrepreneurs. Support local businesses and find amazing deals.</p>
+        <div class="hero-buttons">
+          <a href="products.html" class="btn-primary">Start Shopping</a>
+          <a href="register.html" class="btn-secondary">Become a Seller</a>
+        </div>
+      </div>
+      <div class="hero-image">
+       <div class="hero-card">
+  <span class="hand-r">
+    <i class="fas fa-hand-holding"></i>
+    <span class="letter-r">R</span>
+  </span>
+
+  <h3>Launch Your Business</h3>
+  <p>Join thousands of young entrepreneurs</p>
+</div>
+
+<style>
+.hand-r {
+  position: relative;
+  display: inline-block;
+  font-size: 64px; 
+}
+
+.hand-r .letter-r {
+  position: absolute;
+  top: 55%;       
+  left: 50%;      
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 32px; 
+  color: rgb(255, 255, 255);      
+}
+</style>
+      
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <div class="container">
+      <h2>Why Choose YouthVend?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-users"></i></div>
+          <h3>Youth-Focused</h3>
+          <p>Exclusively for young entrepreneurs under 25.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Secure & Safe</h3>
+          <p>Protected transactions with buyer protection and secure payments.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-heart"></i></div>
+          <h3>Community Driven</h3>
+          <p>Built by youth, for youth. Join a supportive community.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-star"></i></div>
+          <h3>Quality Products</h3>
+          <p>Curated selection of high-quality products with verified ratings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container text-center">
+      <p>&copy; 2025 YouthVend. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
